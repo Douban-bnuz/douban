@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="cn.itcast.douban">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".RegistActivity" />
+        <activity android:name=".LoginActivity" />
+
+        <activity android:name=".HomeActivity" />
+
+        <activity android:name=".ChatActivity" />
+
+        <activity android:name=".LookActivity"/>
+        <activity android:name=".Look_adapter"/>
+        <activity android:name=".Look_listview"/>
+        <activity android:name=".Look_PictureWebView"/>
+        <activity android:name=".Look_textview"/>
+        <activity android:name=".site.Blog"/>
+        <activity android:name=".site.SinaSite"/>
+        <activity android:name=".site.Site"/>
+        <activity android:name=".site.User"/>
+    </application>
+
+</manifest>
