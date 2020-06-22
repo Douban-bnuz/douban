@@ -14,8 +14,8 @@
         android:textSize="24sp"/>
     <!-- input account -->
     <EditText
-        android:layout_marginTop="200dp"
         android:id="@+id/editPhone"
+        android:layout_marginTop="200dp"
         style="@style/textstyle"
         android:layout_width="match_parent"
         android:background="@drawable/rounded_edittext_states"

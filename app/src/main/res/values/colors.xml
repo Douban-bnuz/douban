@@ -16,4 +16,9 @@
 
     <color name="detail_income">#88cc44</color>
     <color name="detail_payout">#ff6600</color>
+
+    <color name="color_check_bg">#ff461f</color>
+    <color name="theme_red">#4c221b</color>
+
+    <color name="yellow">#fff143</color>
 </resources>

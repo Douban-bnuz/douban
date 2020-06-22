@@ -37,10 +37,11 @@
         android:maxLength="16"/>
     <!-- the regist button -->
     <Button
+        android:id="@+id/btnRegist"
         style="@style/textstyle"
         android:layout_width="fill_parent"
         android:background="@drawable/cycleanytext_shape"
-        android:onClick="OnMyRegistClick"
+        android:onClick="OnMyClick"
         android:text="@string/regist" />
 
 </LinearLayout>
